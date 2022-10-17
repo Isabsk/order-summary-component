@@ -1,0 +1,119 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Red Hat Display' , sans-serif ;
+}
+
+.main {
+height: 100vh;
+width: 100%;
+background: hsl(225, 100%, 94%) url('images/pattern-background-mobile.svg') no-repeat ;
+background-position: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 25px;
+}
+
+.card {
+max-width: 430px;
+border-radius: 18px;
+box-shadow: 0 15px 19px 6px hsla(224, 23%, 55%, 0.3);
+}
+
+.card .hero {
+width: 100%;
+border-radius: 18px 18px 0 0 ;
+}
+
+.card .details {
+background: white;
+padding: 30px 25px 30px 25px;
+border-radius: 0 0 18px 18px;
+margin-top:-3px;
+}
+
+.card .details h1 {
+font-size: 25px;
+text-align: center;
+color: hsl(223, 47%, 23%);
+font-weight: 800;
+}
+
+.card .details p {
+padding: 20px 0 25px 0;
+text-align: center;
+font-size: 16px;
+line-height: 1.8;
+color: hsl(224, 23%, 55%);
+font-weight: 400;
+}
+
+.card .details .order-detail {
+width: 100%;
+background: hsl(225, 100%, 98%);
+padding: 14px;
+border-radius: 12px;
+display: flex;
+flex-direction: row;
+}
+
+.order-detail .price {
+display: flex;
+flex-direction: column;
+margin-left: 14px;
+height: 50px;
+}
+
+.price h4 {
+color: hsl(223, 47%, 23%);
+margin-bottom: -10px;
+}
+
+.price p {
+margin-top: -10px;;
+}
+
+.change {
+font-size: 16px;
+padding-left: 5%;
+line-height: 50px;
+}
+
+.payment-button {
+width: 100%;
+background: hsl(245, 75%, 52%);
+color: white;
+padding: 13px;
+border-radius: 12px;
+font-size: 16px;
+font-weight: 800;
+margin: 20px 0 20px 0;
+border: none;
+outline: none;
+transition: 400ms;
+box-shadow: 0 15px 22px 6px rgba(116,109,241,0.3);
+}
+
+.payment-button:hover {
+background: #746df1;
+}
+
+.cancel {
+color: hsl(224, 23%, 55%);
+width: 100%;
+font-size: 16px;
+font-weight: 800;
+text-align: center;
+text-decoration: none;
+}
+
+@media all and (min-width: 600px) {
+.card .details {
+padding: 40px 30px 35px 30px;
+}
+.change {
+padding-left: 30%;
+}
+}
