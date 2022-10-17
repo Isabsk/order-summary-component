@@ -110,6 +110,9 @@ text-decoration: none;
 }
 
 @media all and (min-width: 600px) {
+.main {
+background: hsl(225, 100%, 94%) url('images/pattern-background-desktop.svg') no-repeat ;
+}
 .card .details {
 padding: 40px 30px 35px 30px;
 }
