@@ -42,7 +42,7 @@ font-weight: 800;
 }
 
 .card .details p {
-padding: 20px 0 25px 0;
+padding: 25px 0 30px 0;
 text-align: center;
 font-size: 16px;
 line-height: 1.8;
@@ -89,7 +89,7 @@ padding: 13px;
 border-radius: 12px;
 font-size: 16px;
 font-weight: 800;
-margin: 20px 0 20px 0;
+margin: 30px 0 300px 0;
 border: none;
 outline: none;
 transition: 400ms;
@@ -114,7 +114,7 @@ text-decoration: none;
 background: hsl(225, 100%, 94%) url('images/pattern-background-desktop.svg') no-repeat ;
 }
 .card .details {
-padding: 40px 30px 35px 30px;
+padding: 50px 40px 45px 40px;
 }
 .change {
 padding-left: 30%;
